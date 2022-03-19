@@ -53,7 +53,7 @@ Wikipedia describes them as
 * [Structural Design Patterns](#structural-design-patterns)
 * [Behavioral Design Patterns](#behavioral-design-patterns)
 
-## Creational Design Patterns
+## # Creational Design Patterns
 
 In plain words
 > Creational patterns are focused towards how to instantiate an object or group of related objects.
@@ -72,7 +72,7 @@ Wikipedia says
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Simple Factory Design Pattern
+## # Simple Factory Design Pattern
 
 Real world example
 > Consider, you are building a house and you need doors. It would be a mess if every time you need a door, you put on your carpenter clothes and start making a door in your house. Instead you get it made from a factory.
@@ -136,7 +136,7 @@ When creating an object is not just a few assignments and involves some logic, i
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Factory Method Design Pattern
+## # Factory Method Design Pattern
 
 Real world example
 > Consider the case of a hiring manager. It is impossible for one person to interview for each of the positions. Based on the job opening, she has to decide and delegate the interview steps to different people. 
@@ -217,7 +217,7 @@ Useful when there is some generic processing in a class but the required sub-cla
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Abstract Factory Design Pattern
+## # Abstract Factory Design Pattern
 
 Real world example
 > Extending our door example from Simple Factory. Based on your needs you might get a wooden door from a wooden door shop, iron door from an iron shop or a PVC door from the relevant shop. Plus you might need a guy with different kind of specialities to fit the door, for example a carpenter for wooden door, welder for iron door etc. As you can see there is a dependency between the doors now, wooden door needs carpenter, iron door needs a welder etc.
@@ -338,7 +338,7 @@ When there are interrelated dependencies with not-that-simple creation logic inv
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Builder Design Pattern
+## # Builder Design Pattern
 
 Real world example
 > Imagine you are at Hardee's and you order a specific deal, lets say, "Big Hardee" and they hand it over to you without *any questions* this is the example of simple factory. But there are cases when the creation logic might involve more steps. For example you want a customized Subway deal, you have several options in how your burger is made e.g what bread do you want? what types of sauces would you like? What cheese would you want? etc. In such cases builder pattern comes to the rescue.
@@ -451,7 +451,7 @@ When there could be several flavors of an object and to avoid the constructor te
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Singleton Design Pattern
+## # Singleton Design Pattern
 
 Real world example
 > There can only be one president of a country at a time. The same president has to be brought to action, whenever duty calls. President here is singleton.
@@ -494,7 +494,7 @@ president.presidentsPrivateInformation // Outputs undefined
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Structural Design Patterns
+## # Structural Design Patterns
 
 In plain words
 > Structural patterns are mostly concerned with object composition or in other words how the entities can use each other. Or yet another explanation would be, they help in answering "How to build a software component?"
@@ -510,7 +510,7 @@ Wikipedia says
 * [Flyweight Design Pattern](#flyweight-design-pattern)
 * [Proxy Design Pattern](#proxy-design-pattern)
 
-## Adapter Design Pattern
+## # Adapter Design Pattern
 
 Real world example
 > Consider that you have some pictures in your memory card and you need to transfer them to your computer. In order to transfer them you need some kind of adapter that is compatible with your computer ports so that you can attach memory card to your computer. In this case card reader is an adapter.
@@ -593,7 +593,7 @@ hunter.hunt(wildDogAdapter)
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Bridge Design Pattern
+## # Bridge Design Pattern
 
 Real world example
 > Consider you have a website with different pages and you are supposed to allow the user to change the theme. What would you do? Create multiple copies of each of the pages for each of the themes or would you just create separate theme and load them based on the user's preferences? Bridge pattern allows you to do the second i.e.
@@ -681,7 +681,7 @@ console.log(careers.getContent() )// "Careers page in Dark Black"
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Composite Design Pattern
+## # Composite Design Pattern
 
 Real world example
 > Every organization is composed of employees. Each of the employees has same features i.e. has a salary, has some responsibilities, may or may not report to someone, may or may not have some subordinates etc.
@@ -807,7 +807,7 @@ console.log("Net salaries: " , organization.getNetSalaries()) // Net Salaries: 2
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Decorator Design Pattern
+## # Decorator Design Pattern
 
 Real world example
 
@@ -917,7 +917,7 @@ console.log(someCoffee.getDescription())// Simple Coffee, milk, whip, vanilla
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Facade Design Pattern
+## # Facade Design Pattern
 
 Real world example
 > How do you turn on the computer? "Hit the power button" you say! That is what you believe because you are using a simple interface that computer provides on the outside, internally it has to do a lot of stuff to make it happen. This simple interface to the complex subsystem is a facade.
@@ -998,7 +998,7 @@ computer.turnOff() // Bup bup buzzz! Haah! Zzzzz
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Flyweight Design Pattern
+## # Flyweight Design Pattern
 
 Real world example
 > Did you ever have fresh tea from some stall? They often make more than one cup that you demanded and save the rest for any other customer so to save the resources e.g. gas etc. Flyweight pattern is all about that i.e. sharing.
@@ -1071,7 +1071,7 @@ shop.serve()
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Proxy Design Pattern
+## # Proxy Design Pattern
 
 Real world example
 > Have you ever used an access card to go through a door? There are multiple options to open that door i.e. it can be opened either using access card or by pressing a button that bypasses the security. The door's main functionality is to open but there is a proxy added on top of it to add some functionality. Let me better explain it using the code example below.
@@ -1140,7 +1140,7 @@ door.close() // Closing lab door
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Behavioral Design Patterns
+## # Behavioral Design Patterns
 
 In plain words
 > It is concerned with assignment of responsibilities between the objects. What makes them different from structural patterns is they don't just specify the structure but also outline the patterns for message passing/communication between them. Or in other words, they assist in answering "How to run a behavior in software component?"
@@ -1159,7 +1159,7 @@ Wikipedia says
 * [State Design Pattern](#state-design-pattern)
 * [Template Method Design Pattern](#template-method-design-pattern)
 
-## Chain of Responsibility Design Pattern
+## # Chain of Responsibility Design Pattern
 
 Real world example
 > For example, you have three payment methods (`A`, `B` and `C`) setup in your account each having a different amount in it. `A` has 100 USD, `B` has 300 USD and `C` having 1000 USD and the preference for payments is chosen as `A` then `B` then `C`. You try to purchase something that is worth 210 USD. Using Chain of Responsibility, first of all account `A` will be checked if it can make the purchase, if yes purchase will be made and the chain will be broken. If not, request will move forward to account `B` checking for amount if yes chain will be broken otherwise the request will keep forwarding till it finds the suitable handler. Here `A`, `B` and `C` are links of the chain and the whole phenomenon is Chain of Responsibility.
@@ -1253,7 +1253,7 @@ bank.pay(259)
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Command Design Pattern
+## # Command Design Pattern
 
 Real world example
 > A generic example would be you ordering a food at restaurant. You (i.e. `Client`) ask the waiter (i.e. `Invoker`) to bring some food (i.e. `Command`) and waiter simply forwards the request to Chef (i.e. `Receiver`) who has the knowledge of what and how to cook. 
@@ -1356,7 +1356,7 @@ Command pattern can also be used to implement a transaction based system. Where 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Iterator Design Pattern
+## # Iterator Design Pattern
 
 Real world example
 > An old radio set will be a good example of iterator, where user could start at some channel and then use next or previous buttons to go through the respective channels. Or take an example of MP3 player or a TV set where you could press the next and previous buttons to go through the consecutive channels or in other words they all provide an interface to iterate through the respective channels, songs or radio stations.  
@@ -1419,7 +1419,7 @@ stationList.removeStation(new RadioStation(89)) // Will remove station 89
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Mediator Design Pattern
+## # Mediator Design Pattern
 
 Real world example
 > A general example would be when you talk to someone on your mobile phone, there is a network provider sitting between you and them and your conversation goes through it instead of being directly sent. In this case network provider is mediator. 
@@ -1486,7 +1486,7 @@ jane.send('Hey!')
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Memento Design Pattern
+## # Memento Design Pattern
 
 Real world example
 > Take the example of calculator (i.e. originator), where whenever you perform some calculation the last calculation is saved in memory (i.e. memento) so that you can get back to it and maybe get it restored using some action buttons (i.e. caretaker). 
@@ -1571,7 +1571,7 @@ console.log(editor.getContent()) // This is the first sentence. This is second.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Observer Design Pattern
+## # Observer Design Pattern
 
 (Otherwise known as _"pub-sub"_)
 
@@ -1644,7 +1644,7 @@ jobBoard.addJob(JobPost('Software Engineer'))
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Visitor Design Pattern
+## # Visitor Design Pattern
 
 Real world example
 > Consider someone visiting Dubai. They just need a way (i.e. visa) to enter Dubai. After arrival, they can come and visit any place in Dubai on their own without having to ask for permission or to do some leg work in order to visit any place here just let them know of a place and they can visit it. Visitor pattern let's you do just that, it helps you add places to visit so that they can visit as much as they can without having to do any legwork.
@@ -1747,7 +1747,7 @@ dolphin.accept(jump)   // Walked on water a little and disappeared
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Strategy Design Pattern
+## # Strategy Design Pattern
 
 Real world example
 > Consider the example of sorting, we implemented bubble sort but the data started to grow and bubble sort started getting very slow. In order to tackle this we implemented Quick sort. But now although the quick sort algorithm was doing better for large datasets, it was very slow for smaller datasets. In order to handle this we implemented a strategy where for small datasets, bubble sort will be used and for larger, quick sort.
@@ -1804,7 +1804,7 @@ sorter2(shortDataSet) // Output : Sorting with bubble sort
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## State Design Pattern
+## # State Design Pattern
 
 Real world example
 > Imagine you are using some drawing application, you choose the paint brush to draw. Now the brush changes it's behavior based on the selected color i.e. if you have chosen red color it will draw in red, if blue then it will be in blue etc.  
@@ -1871,7 +1871,7 @@ editor.type('Fifth line')
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Template Method Design Pattern
+## # Template Method Design Pattern
 
 Real world example
 
