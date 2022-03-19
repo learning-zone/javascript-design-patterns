@@ -4,36 +4,36 @@
 
 ## Table of Contents
 
-* [Introduction](#introduction)
-* [Types of Design Patterns](#types-of-design-patterns)
-    * [Creational Design Patterns](#creational-design-patterns)
-        * [Simple Factory](#simple-factory-design-pattern)
-        * [Factory Method](#factory-method-design-pattern)
-        * [Abstract Factory](#abstract-factory-design-pattern)
-        * [Builder](#builder-design-pattern)
-        * [Prototype](#prototype-design-pattern)
-        * [Singleton](#singleton-design-pattern)
-    * [Structural Design Patterns](#structural-design-patterns)
-        * [Adapter](#adapter-design-pattern)
-        * [Bridge](#bridge-design-pattern)
-        * [Composite](#composite-design-pattern)
-        * [Decorator](#decorator-design-pattern)
-        * [Facade](#facade-design-pattern)
-        * [Flyweight](#flyweight-design-pattern)
-        * [Proxy](#proxy-design-pattern)
-    * [Behavioral Design Patterns](#behavioral-design-patterns)
-        * [Chain of Responsibility](#chain-of-responsibility-design-pattern)
-        * [Command](#command-design-pattern)
-        * [Iterator](#iterator-design-pattern)
-        * [Mediator](#mediator-design-pattern)
-        * [Memento](#memento-design-pattern)
-        * [Observer](#observer-design-pattern)
-        * [Visitor](#visitor-design-pattern)
-        * [Strategy](#strategy-design-pattern)
-        * [State](#state-design-pattern)
-        * [Template Method](#template-method-design-pattern)
+* [Introduction](#-introduction)
+* [Types of Design Patterns](#-types-of-design-patterns)
+    * [Creational Design Patterns](#-creational-design-patterns)
+        * [Simple Factory](#-simple-factory-design-pattern)
+        * [Factory Method](#-factory-method-design-pattern)
+        * [Abstract Factory](#-abstract-factory-design-pattern)
+        * [Builder](#-builder-design-pattern)
+        * [Prototype](#-prototype-design-pattern)
+        * [Singleton](#-singleton-design-pattern)
+    * [Structural Design Patterns](#-structural-design-patterns)
+        * [Adapter](#-adapter-design-pattern)
+        * [Bridge](#-bridge-design-pattern)
+        * [Composite](#-composite-design-pattern)
+        * [Decorator](#-decorator-design-pattern)
+        * [Facade](#-facade-design-pattern)
+        * [Flyweight](#-flyweight-design-pattern)
+        * [Proxy](#-proxy-design-pattern)
+    * [Behavioral Design Patterns](#-behavioral-design-patterns)
+        * [Chain of Responsibility](#-chain-of-responsibility-design-pattern)
+        * [Command](#-command-design-pattern)
+        * [Iterator](#-iterator-design-pattern)
+        * [Mediator](#-mediator-design-pattern)
+        * [Memento](#-memento-design-pattern)
+        * [Observer](#-observer-design-pattern)
+        * [Visitor](#-visitor-design-pattern)
+        * [Strategy](#-strategy-design-pattern)
+        * [State](#-state-design-pattern)
+        * [Template Method](#-template-method-design-pattern)
 
-## Introduction
+## # Introduction
 
 Design patterns are solutions to recurring problems **guidelines on how to tackle certain problems**. They are not classes, packages or libraries that you can plug into your application and wait for the magic to happen. These are, rather, guidelines on how to tackle certain problems in certain situations.
 
@@ -47,11 +47,11 @@ Wikipedia describes them as
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Types of Design Patterns
+## # Types of Design Patterns
 
-* [Creational Design Patterns](#creational-design-patterns)
-* [Structural Design Patterns](#structural-design-patterns)
-* [Behavioral Design Patterns](#behavioral-design-patterns)
+* [Creational Design Patterns](#-creational-design-patterns)
+* [Structural Design Patterns](#-structural-design-patterns)
+* [Behavioral Design Patterns](#-behavioral-design-patterns)
 
 ## # Creational Design Patterns
 
@@ -61,12 +61,12 @@ In plain words
 Wikipedia says
 > In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
 
- * [Simple Factory Design Pattern](#simple-factory-design-pattern)
- * [Factory Method Design Pattern](#factory-method-design-pattern)
- * [Abstract Factory Design Pattern](#abstract-factory-design-pattern)
- * [Builder Design Pattern](#builder-design-pattern)
- * [Prototype Design Pattern](#prototype-design-pattern)
- * [Singleton Design Pattern](#singleton-design-pattern)
+ * [Simple Factory Design Pattern](#-simple-factory-design-pattern)
+ * [Factory Method Design Pattern](#-factory-method-design-pattern)
+ * [Abstract Factory Design Pattern](#-abstract-factory-design-pattern)
+ * [Builder Design Pattern](#-builder-design-pattern)
+ * [Prototype Design Pattern](#-prototype-design-pattern)
+ * [Singleton Design Pattern](#-singleton-design-pattern)
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -502,13 +502,13 @@ In plain words
 Wikipedia says
 > In software engineering, structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships between entities.
   
-* [Adapter Design Pattern](#adapter-design-pattern)
-* [Bridge Design Pattern](#bridge-design-pattern)
-* [Composite Design Pattern](#composite-design-pattern)
-* [Decorator Design Pattern](#decorator-design-pattern)
-* [Facade Design Pattern](#facade-design-pattern)
-* [Flyweight Design Pattern](#flyweight-design-pattern)
-* [Proxy Design Pattern](#proxy-design-pattern)
+* [Adapter Design Pattern](#-adapter-design-pattern)
+* [Bridge Design Pattern](#-bridge-design-pattern)
+* [Composite Design Pattern](#-composite-design-pattern)
+* [Decorator Design Pattern](#-decorator-design-pattern)
+* [Facade Design Pattern](#-facade-design-pattern)
+* [Flyweight Design Pattern](#-flyweight-design-pattern)
+* [Proxy Design Pattern](#-proxy-design-pattern)
 
 ## # Adapter Design Pattern
 
@@ -1148,16 +1148,16 @@ In plain words
 Wikipedia says
 > In software engineering, behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
 
-* [Chain of Responsibility Design Pattern](#chain-of-responsibility-design-pattern)
-* [Command Design Pattern](#command-design-pattern)
-* [Iterator Design Pattern](#iterator-design-pattern)
-* [Mediator Design Pattern](#mediator-design-pattern)
-* [Memento Design Pattern](#memento-design-pattern)
-* [Observer Design Pattern](#observer-design-pattern)
-* [Visitor Design Pattern](#visitor-design-pattern)
-* [Strategy Design Pattern](#strategy-design-pattern)
-* [State Design Pattern](#state-design-pattern)
-* [Template Method Design Pattern](#template-method-design-pattern)
+* [Chain of Responsibility Design Pattern](#-chain-of-responsibility-design-pattern)
+* [Command Design Pattern](#-command-design-pattern)
+* [Iterator Design Pattern](#-iterator-design-pattern)
+* [Mediator Design Pattern](#-mediator-design-pattern)
+* [Memento Design Pattern](#-memento-design-pattern)
+* [Observer Design Pattern](#-observer-design-pattern)
+* [Visitor Design Pattern](#-visitor-design-pattern)
+* [Strategy Design Pattern](#-strategy-design-pattern)
+* [State Design Pattern](#-state-design-pattern)
+* [Template Method Design Pattern](#-template-method-design-pattern)
 
 ## # Chain of Responsibility Design Pattern
 
